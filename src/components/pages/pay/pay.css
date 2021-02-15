@@ -1,0 +1,30 @@
+.pay-page {
+  padding: 30px;
+}
+
+.cart-items {
+  width: 50vw;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.form {
+  width: 500px;
+  font-size: 30px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.col-auto {
+  margin: 5px 0;
+}
+
+.form-input {
+  height: 35px;
+  width: 60%;
+}

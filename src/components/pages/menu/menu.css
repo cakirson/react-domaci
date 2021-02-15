@@ -1,0 +1,30 @@
+.mainmenu {
+  min-height: 500px;
+  padding: 70px 50px 70px 50px;
+}
+
+.menuWrapper {
+  display: grid;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-left: 20px;
+  gap: 25px;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.article-wrapper {
+  width: fit-content;
+}
+
+.article-wrapper Button {
+  width: 100%;
+}
+.article-wrapper Button i:hover {
+  color: currentColor;
+}
+
+@media screen and (max-width: 1000px) {
+  .menuWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

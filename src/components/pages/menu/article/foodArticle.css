@@ -1,0 +1,51 @@
+.article {
+  width: 250px;
+  height: 320px;
+  border-style: solid;
+  border-color: #ff9c00;
+  border-width: 3px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article img {
+  width: 250px;
+  height: 220px;
+}
+
+.cart-article {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cart-article img {
+  width: 125px;
+  height: 110px;
+}
+
+.pay-article {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pay-article img {
+  width: 100px;
+  height: 80px;
+}
+
+.foodDetails {
+  width: 100%;
+  text-align: center;
+}
+
+.foodName {
+  font-size: 20px;
+}
+
+.foodPrice {
+  text-align: right;
+  margin: 10px;
+}
